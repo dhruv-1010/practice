@@ -42,7 +42,7 @@ export default function Blog() {
             <h1>This is {elem.head}</h1>
             <h2>This is {elem.desc}</h2>
             <button onClick={() => deleteThis(elem.blogId)}>Delete</button>
-            <button >
+            <button>Click me</button>
           </div>
         );
       })}
